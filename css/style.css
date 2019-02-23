@@ -1,0 +1,48 @@
+img {
+    max-width: 1370px;
+    height: 800px;
+}
+
+.gambar {
+    width: auto;
+    height: 300px;
+}
+
+.box {
+    background-color: salmon;
+    color: rgb(245, 202, 10);
+    width: 347px;
+    height: 497px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px; */
+    margin: 20px 10px 50px 10px;
+    /* 
+        Margin bagian luar, Padding bagian dalam
+        margin/padding : top right bottom left (searah jarum jam)
+    */
+}
+
+.card-body {
+    background-image: url(../image/foto1.jpg);
+    background-position-y: 0;
+}
+
+.card-body:hover {
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+
+h5 {
+    color: salmon;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* .fa {
+    width: auto;
+    height: 600px;
+} */
